@@ -1,18 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          82 Technology 
-        </p>
-          Learn React
-      </header>
+    <div className="Container">
+      <div className="row">
+        <div className="col-6">Colum Number one </div>
+        <div className="col-6">Column Nimber two </div>
+      </div>
     </div>
+
   );
 }
 
